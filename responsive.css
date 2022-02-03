@@ -27,6 +27,10 @@
     .main{
       padding-top:80px;
     }
+    
+    .footer-right p{
+      font-size:12;
+    }
   }
   
   /* Untuk Smartphone */
@@ -35,13 +39,14 @@
       width:100px;
     }
     
-    .right-text {
+    .header-right {
       display: none;
     }
 
     .fa-bars{
         display:block;
-        padding-right:15px;
+        float:right;
+        margin:0 auto;
     }
     
     .search{
@@ -80,5 +85,33 @@
     .featured-wrapper h3{
       font-size:14;
       
+    }
+    
+    footer{
+      height:120px;
+    }
+    
+    .footer-left{
+      float:none;
+      text-align:center;
+    }
+
+    .footer-right{
+      float:none;
+    }
+  
+    footer container{
+      display:flex;
+      flex-direction:column;
+    }
+    
+    .logo-footer{
+      padding: 15px 15px 5px 15px;
+    }
+    
+    .footer-right{
+      color:white;
+      padding:10px 0;
+      text-align:center;
     }
   }
