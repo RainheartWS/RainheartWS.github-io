@@ -1,0 +1,189 @@
+*{
+    font-family: "Montserrat";
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    background-color: white;
+    width:100%;
+    position: fixed;
+    top:0;
+    border-bottom: 2px solid #eee;
+    padding: 15px 0 15px 0;
+    z-index: 10;
+}
+
+
+.logo{
+    width:180px;
+}
+
+.fa-bars{
+    display:none;
+}
+
+.header-left {
+    float: left;
+    margin-left: 20px;
+  }
+  
+.header-right {
+    float: right;
+    padding: 30px 0;
+}
+
+.header-right a{    
+    color:#333;
+}
+
+.signin{
+    border-right: 3px solid #333;
+    font-weight:600;
+    padding-right:15px;
+}
+
+.signin:hover{
+    color: #8c8c8c;
+}
+
+.fa-shopping-cart{
+    padding-left:10px
+}
+
+.fa-shopping-cart:hover{
+    color: #8c8c8c;
+}
+
+.main{
+    padding-top: 110px;
+    background-color: #8abeff;
+    width:92%;
+    margin: 0 auto;
+}
+
+.section-title{
+    padding-top: 10px;
+    color:#333;
+    font-weight: 560;
+    padding-bottom:10px;
+}
+
+.featured-wrapper{
+    margin:0 auto;
+    width:92%;
+    
+}
+
+.featured{
+    position:relative;
+}
+
+.feat2{
+    display:inline-block;
+    position: absolute;
+    left:0px;
+    width:100%;
+    animation-name: banner-anims;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+
+.feat1{
+    width:100%;
+    padding-bottom: 5%;
+}
+
+.clear{
+    clear : left;
+  }
+
+@keyframes banner-anims {
+    0%   {opacity: 1;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.page-body{
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+
+.body-wrapper{
+    display:flex;
+}
+
+.search{
+    width:30%;    
+    padding-left:15px;
+    padding-right: 30px;
+    border-right: 1px solid #8c8c8c;
+}
+
+.browse{
+    padding-left: 30px;
+    padding-right:15px;
+}
+
+.categories{
+    display:flex;
+}
+
+.category{
+    width:25%;
+    text-align: center;
+    font-size:12;
+    padding:5px;
+}
+
+.category:hover{
+  opacity:0.7;
+}
+
+.category img{
+    width: 60%;
+}
+
+.page-body h4{
+  font-weight:560;
+}
+
+.visit{
+  padding:  15px;
+  background-color:#f0f0f0;
+}
+
+.visit p{
+  font-size:14;
+}
+
+footer{
+  height:80px;
+  
+  background-color:#f2d972;
+}
+
+.logo-footer{
+  padding:15px;
+  width:250px;
+}
+
+.footer-left{
+  float:left;
+}
+
+.footer-right{
+  color:white;
+  float:right;
+  padding:30px 15px;
+}
